@@ -1,0 +1,65 @@
+<div class="widget widget-new-products">
+    <div class="widget-title">
+        <h2>New Products</h2>
+    </div>
+    <div class="widget-products">
+                                        <ul class="products-grid products-grid--max-4-col-widget">
+                            <li class="item last">
+                                                            <a href="http://magento.test/index.php/shoes-2.html?___SID=U" title="Shoes" class="product-image">
+                        <img src="http://magento.test/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/images/catalog/product/placeholder/small_image.jpg" alt="Shoes" />
+                    </a>
+                    <div class="product-info">
+                        <h3 class="product-name"><a href="http://magento.test/index.php/shoes-2.html?___SID=U" title="Shoes">Shoes</a></h3>
+                        
+
+                        
+    <div class="price-box">
+                                            
+                    <p class="old-price">
+                <span class="price-label">Regular Price:</span>
+                <span class="price" id="old-price-2-widget-new-grid">
+                    ₹1,400.00                </span>
+            </p>
+
+                            <p class="special-price">
+                    <span class="price-label">Special Price</span>
+                <span class="price" id="product-price-2-widget-new-grid">
+                    ₹1,200.00                </span>
+                </p>
+                    
+    
+        </div>
+
+                                                <div class="actions">
+                                                            <button type="button"
+                                        title="Add to Cart"
+                                        class="button btn-cart"
+                                        onclick="customFormSubmit(
+                                                'http://magento.test/index.php/checkout/cart/add/uenc/aHR0cDovL21hZ2VudG8udGVzdC8,/product/2/?___SID=U',
+                                                '{&quot;form_key&quot;:&quot;mayCgY5y24iWOWkv&quot;}',
+                                                'post')">
+                                    <span><span>Add to Cart</span></span>
+                                </button>
+                                                        <ul class="add-to-links">
+                                                                                                        <li>
+                                        <a href="#"
+                                           data-url="http://magento.test/index.php/wishlist/index/add/product/2/?___SID=U"
+                                           data-params="{&quot;form_key&quot;:&quot;mayCgY5y24iWOWkv&quot;}"
+                                           class="link-wishlist"
+                                           onclick="customFormSubmit('http://magento.test/index.php/wishlist/index/add/product/2/?___SID=U', '{&quot;form_key&quot;:&quot;mayCgY5y24iWOWkv&quot;}', 'post')">
+                                            Add to Wishlist                                        </a>
+                                    </li>
+                                                                                                    <li>
+                                        <span class="separator">|</span>
+                                        <a href="#"
+                                           class="link-compare"
+                                           onclick="customFormSubmit('http://magento.test/index.php/catalog/product_compare/add/product/2/uenc/aHR0cDovL21hZ2VudG8udGVzdC8,/?___SID=U', '{&quot;form_key&quot;:&quot;mayCgY5y24iWOWkv&quot;}', 'post')">
+                                            Add to Compare                                        </a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                    </div>
+                </li>
+                    </ul>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <checkout_onepage_index>
+        <reference name="checkout.onepage">
+            <block type="customcheckout/shipping" name="checkout.shipping" template="customcheckout/shipping.phtml" before="checkout.payment" />
+            <block type="customcheckout/payment" name="checkout.payment" template="customcheckout/payment.phtml" before="checkout.review" />
+            <block type="customcheckout/review" name="checkout.review" template="customcheckout/review.phtml" after="checkout.payment" />
+        </reference>
+    </checkout_onepage_index>
+</layout>
